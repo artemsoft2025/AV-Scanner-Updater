@@ -2,6 +2,8 @@
 
 **Автоматический загрузчик антивирусных сканеров в указанную папку**
 
+[Скачать релиз](https://github.com/artemsoft2025/AV-Scanner-Updater/releases/download/1.0/AVScannerUpdater.zip)
+
 ---
 
 ## ОПИСАНИЕ
