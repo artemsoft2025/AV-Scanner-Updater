@@ -9,19 +9,22 @@
 
 ПОДДЕРЖИВАЮТСЯ
 --------------
-  • Dr.Web CureIt!
-  • Kaspersky Virus Removal Tool (KVRT)
-  • Emsisoft Emergency Kit
-  • ESET Online Scanner
-  • AdwCleaner (beta-канал)
-  + любые свои ссылки через секцию [CustomUrls]
+- Dr.Web CureIt!
+- Kaspersky Virus Removal Tool (KVRT)
+- Emsisoft Emergency Kit
+- ESET Online Scanner
+- AdwCleaner (beta-канал)
+- любые свои ссылки через секцию `[CustomUrls]`
 
 ДВЕ ВЕРСИИ
 ----------
+
  ` av_gui.exe`  — графический интерфейс, для обычного пользователя.
+
  ` AVSUp.exe`   — командная строка, для скриптов и планировщика.
  
 ![](img/001.png)
+
 
 ![](img/002.png)
 
@@ -39,11 +42,12 @@
 
 КАК ЗАПУСТИТЬ (CLI)
 -------------------
-`  AVSUp.exe                    — загрузить всё, что включено в INI`
-`  AVSUp.exe --no-wait          — не ждать Enter в конце`
-`  AVSUp.exe --quiet            — минимум вывода`
-`  AVSUp.exe -c custom.ini      — другой конфиг`
-
+```cmd
+  AVSUp.exe                    — загрузить всё, что включено в INI
+  AVSUp.exe --no-wait          — не ждать Enter в конце
+  AVSUp.exe --quiet            — минимум вывода
+  AVSUp.exe -c custom.ini      — другой конфиг
+```
 
 ГДЕ ЛЕЖИТ КОНФИГ
 ----------------
@@ -53,7 +57,8 @@
 
 ИСТОРИЯ ЗАГРУЗОК
 ----------------
- ` av_scanners\download_history.json` — что и когда качалось
+
+` av_scanners\download_history.json` — что и когда качалось  
  ` av_scanners\download_report.json`  — итоги последнего запуска
 
 
